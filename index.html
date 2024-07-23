@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo App</title>
+    <!-- Font A -->
+    <script src="https://kit.fontawesome.com/9c4545304d.js" crossorigin="anonymous"></script>
+    <!-- CSS  -->
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <!-- Main Section -->
+    <div class="container">
+
+        <!-- Header Section -->
+        <header>
+            <h1 class="headding">Todo List</h1>
+            <form class="search">
+               <input type="text" name="search" placeholder="Search Your Added Todos"/input> 
+            </form>
+        </header>
+
+        <!-- Hero section -->
+        <ul class="todos">
+            <li><span>Read a Book</span><i class="fa-solid fa-trash delete"></i></li>
+            <li><span>Take Online Class</span><i class="fa-solid fa-trash delete"></i></li>
+            <li ><span>Listen Music</span><i class="fa-solid fa-trash delete"></i></li>
+        </ul>
+
+        <!-- Footer Section -->
+        <form class="add" name="addfrm">
+            <label> Add a New Todo...</label>
+            <input type="text" name="add" placeholder="Type Something To Add">
+        </form> 
+    </div>
+
+    <!--  -->
+    <script src="./app.js"></script>
+</body>
+</html>
